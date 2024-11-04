@@ -1,4 +1,40 @@
 ﻿  AssetManager.cpp
-  StateMachine.cpp
+  InputManager.cpp
+C:\Game\Flappy-Bird-Clone-using-CPP-SFML\SFML Template\SFML Template\InputManager.cpp(10,129): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+C:\Game\Flappy-Bird-Clone-using-CPP-SFML\SFML Template\SFML Template\InputManager.cpp(10,97): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+C:\Game\Flappy-Bird-Clone-using-CPP-SFML\SFML Template\SFML Template\InputManager.cpp(10,69): warning C4244: 'argument': conversion from 'const T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+C:\Game\Flappy-Bird-Clone-using-CPP-SFML\SFML Template\SFML Template\InputManager.cpp(10,45): warning C4244: 'argument': conversion from 'const T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
   Generating Code...
   SFML Template.vcxproj -> C:\Game\Flappy-Bird-Clone-using-CPP-SFML\SFML Template\x64\Debug\SFML Template.exe
