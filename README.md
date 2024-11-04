@@ -10,9 +10,8 @@ A C++ implementation of the classic Flappy Bird game using SFML, featuring a cus
 
 **Preview 👀**
 ----------
-💡**Objective**: Perform complex combos with minimal input while showcasing smooth animation transitions 💡.
+💡**Objective**: Understand the architecture and implementation of a basic game engine by exploring this SFML-based Flappy Bird project 💡.
 
-https://github.com/user-attachments/assets/8dc5aefa-78fd-44c2-8b01-53957730d21c
 
 **Gameplay 🎮**
 ------------
