@@ -25,8 +25,6 @@ A C++ implementation of the classic Flappy Bird game using SFML, featuring a cus
 * SFML 2.5.1 or higher
 * C++11 compliant compiler
 
-*This project was built with Unity 2022.3*
-
 **Building **
 --------------
 * Clone this repository
