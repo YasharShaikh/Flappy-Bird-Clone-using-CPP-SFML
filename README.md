@@ -1,13 +1,12 @@
 **Flappy-Bird-Clone-using-SFML-CPP** ⚔️
 ==========================
 
-A Unity project demonstrating a flexible combo attack system with minimal input requirements. This project showcases:
+A C++ implementation of the classic Flappy Bird game using SFML, featuring a custom-built game engine with:
 
-
-* Efficient input handling
-* Animation integration
-* Combo attack mechanics
-* Modular attack system
+* Efficient state machine
+* Modular asset management
+* Input manager for seamless user interaction
+* Flappy Bird game logic
 
 **Preview 👀**
 ----------
@@ -17,21 +16,24 @@ https://github.com/user-attachments/assets/8dc5aefa-78fd-44c2-8b01-53957730d21c
 
 **Gameplay 🎮**
 ------------
-* Use keyboard input to perform combos
-  + Q: Open action menu to switch next performing attack
-  + Right Mouse button: Perform energy attack
-  + Left Mouse button: Perform sword attack
-* Observe smooth animation transitions
-* Experiment with different combo sequences
+* Use space bar or click to flap
+* Avoid obstacles and navigate through challenging levels
+* Compete for high scores
   
 
 **Getting Started 📃**
 --------------
-Clone or download this repository and open the project with your version of Unity.
+* SFML 2.5.1 or higher
+* C++11 compliant compiler
 
 *This project was built with Unity 2022.3*
 
-
+**Building **
+--------------
+* Clone this repository
+* Install SFML using your package manager or download from 
+* Build the project using your preferred IDE or command line
+  
 **Contributing 💪**
 --------------
 Looking to contribute something to this project? Here's how you can help.
