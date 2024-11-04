@@ -2,27 +2,9 @@
 //
 
 #include <iostream>
-#include <SFML/Graphics.hpp>
-#include <SFML/System.hpp>
 
-
-#define SCREEN_WIDTH 1024
-#define SCREEN_HEIGHT 1024
 int main()
 {
-    std::cout << "Hello World!\n";
-    sf::RenderWindow window(sf::VideoMode(SCREEN_WIDTH, SCREEN_HEIGHT), "Yashar Shaikh");
-
-	while (window.isOpen())
-	{
-		//handle events 
-		//update game logic
-
-		window.clear();
-		//draw sfml object
-
-		window.display();
-	}
 	return EXIT_SUCCESS;
 }
 
