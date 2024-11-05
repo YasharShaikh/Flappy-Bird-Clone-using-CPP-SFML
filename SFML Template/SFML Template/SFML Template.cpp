@@ -2,9 +2,11 @@
 //
 
 #include <iostream>
+#include "Game.h"
 
 int main()
 {
+	flappybird::Game(800, 600, "Flappy Bird");
 	return EXIT_SUCCESS;
 }
 
