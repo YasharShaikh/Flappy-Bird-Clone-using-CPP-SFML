@@ -3,10 +3,11 @@
 
 #include <iostream>
 #include "Game.h"
+#include "DEFINATIONS.h"
 
 int main()
 {
-	flappybird::Game(800, 600, "Flappy Bird");
+	flappybird::Game(SCREEN_WIDTH, SCREEN_HEIGHT, "Flappy Bird"); 
 	return EXIT_SUCCESS;
 }
 
