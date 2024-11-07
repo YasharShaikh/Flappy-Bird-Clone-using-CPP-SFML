@@ -1,14 +1,14 @@
 #pragma once
 
 #include <memory>
-#include <stralign.h>
+#include <string>
 #include <SFML/Graphics.hpp>
 #include "StateMachine.h"
 #include "AssetManager.h"
 #include "InputManager.h"
 
 
-namespace flappybird
+namespace flappybird 
 {
 	struct GameData
 	{

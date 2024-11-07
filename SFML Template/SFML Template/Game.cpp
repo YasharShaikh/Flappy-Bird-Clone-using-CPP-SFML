@@ -1,11 +1,13 @@
 #include "Game.h"
-
+#include "SplashState.h"
 
 namespace flappybird
 {
 	flappybird::Game::Game(int width, int height, std::string title)
 	{
 		_data->window.create(sf::VideoMode(width, height), title, sf::Style::Close | sf::Style::Titlebar);
+
+		_data->machine.AddState(stateRef(new SplashState(this->_data)));
 
 		this->Run();
 	}

@@ -7,7 +7,7 @@
 
 int main()
 {
-	flappybird::Game(SCREEN_WIDTH, SCREEN_HEIGHT, "Flappy Bird"); 
+	flappybird::Game(800, 600, "Flappy Bird"); 
 	return EXIT_SUCCESS;
 }
 

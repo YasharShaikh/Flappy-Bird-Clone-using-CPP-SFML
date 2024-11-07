@@ -12,10 +12,6 @@ namespace flappybird
 
 		virtual void Pause() {}
 		virtual void Resume() {}
-
-
-
-
 	};
 
 }

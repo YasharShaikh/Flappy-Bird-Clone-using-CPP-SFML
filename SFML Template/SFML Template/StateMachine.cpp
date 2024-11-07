@@ -6,9 +6,11 @@ namespace flappybird
 {
 	void flappybird::StateMachine::AddState(stateRef newState, bool isReplacing)
 	{
+		if (newState == nullptr) {
+
+		}
 		this->_isAdding = true;
 		this->_isReplacing = isReplacing;
-
 		this->_newState = std::move(newState);
 	}
 
@@ -52,7 +54,10 @@ namespace flappybird
 
 	stateRef& StateMachine::GetActiveState()
 	{
-		return this->_states.top();
+
+		if (!_states.empty()) {
+			return this->_states.top();
+		}
 	}
 }
 
