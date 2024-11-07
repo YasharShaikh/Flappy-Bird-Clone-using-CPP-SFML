@@ -4,6 +4,7 @@
 
 namespace flappybird
 {
+
 	void flappybird::StateMachine::AddState(stateRef newState, bool isReplacing)
 	{
 		this->_isAdding = true;
