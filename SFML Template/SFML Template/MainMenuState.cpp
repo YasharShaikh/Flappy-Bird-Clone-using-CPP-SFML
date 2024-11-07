@@ -3,6 +3,7 @@
 #include <iostream>
 #include "DEFINATIONS.h"
 #include "GameState.h"
+#include "GameOverState.h"
 namespace flappybird
 {
 	flappybird::MainMenuState::MainMenuState(GameDataRef data) : _data(data)
@@ -17,11 +18,11 @@ namespace flappybird
 
 
 		_background.setTexture(this->_data->assets.GetTexture("Main Menu State Background"));
-		_tite.setTexture(this->_data->assets.GetTexture("Title"));
+		_title.setTexture(this->_data->assets.GetTexture("Title"));
 		_playButton.setTexture(this->_data->assets.GetTexture("Play Button"));
 
 
-		_tite.setPosition((SCREEN_WIDTH / 2) - (_tite.getGlobalBounds().width / 2), (_tite.getGlobalBounds().height / 2));
+		_title.setPosition((SCREEN_WIDTH / 2) - (_title.getGlobalBounds().width / 2), (_title.getGlobalBounds().height / 2));
 		_playButton.setPosition((SCREEN_WIDTH / 2) - (_playButton.getGlobalBounds().width / 2), (SCREEN_HEIGHT / 2) - (_playButton.getGlobalBounds().height / 2));
 	}
 
@@ -36,7 +37,7 @@ namespace flappybird
 			}
 			if (this->_data->input.IsSpriteClicked(this->_playButton, sf::Mouse::Left, this->_data->window))
 			{
-				_data->machine.AddState(stateRef(new GameState(this->_data)), true);
+				_data->machine.AddState(stateRef(new GameOverState(this->_data)), true);
 				std::cout << "Going to Game Screen " << std::endl;
 			}
 		}
@@ -51,7 +52,7 @@ namespace flappybird
 		this->_data->window.clear();
 
 		this->_data->window.draw(this->_background);
-		this->_data->window.draw(this->_tite);
+		this->_data->window.draw(this->_title);
 		this->_data->window.draw(this->_playButton);
 
 		this->_data->window.display();

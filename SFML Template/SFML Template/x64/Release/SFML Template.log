@@ -1,4 +1,6 @@
-﻿  GameState.cpp
+﻿  GameOverState.cpp
+  MainMenuState.cpp
+  SplashState.cpp
   Generating code
   1 of 394 functions ( 0.3%) were compiled, the rest were copied from previous compilation.
     0 functions were new in current compilation

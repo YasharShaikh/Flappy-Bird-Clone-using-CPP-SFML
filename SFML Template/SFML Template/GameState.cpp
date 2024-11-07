@@ -13,7 +13,6 @@ namespace flappybird
 	{
 		this->_data->assets.LoadTexture("Game State Background", GAME_BACKGROUND_FILEPATH);
 		_background.setTexture(this->_data->assets.GetTexture("Game State Background"));
-
 	}
 	void GameState::HandleInput()
 	{
