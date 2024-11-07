@@ -2,6 +2,7 @@
 #include <iostream>
 #include "SplashState.h"
 #include "DEFINATIONS.h"
+#include "MainMenuState.h"
 
 namespace flappybird
 {
@@ -34,13 +35,15 @@ namespace flappybird
 	{
 		if (this->_clock.getElapsedTime().asSeconds() > SPLASH_STATE_SHOW_TIME)
 		{
+
+			_data->machine.AddState(stateRef(new MainMenuState(this->_data)), true);
 			std::cout << "Go to main menu" << std::endl;
 		}
 	}
 
 	void SplashState::Draw(float dt)
 	{
-		this->_data->window.clear(sf::Color::Red);
+		this->_data->window.clear();
 
 		this->_data->window.draw(this->_background);
 

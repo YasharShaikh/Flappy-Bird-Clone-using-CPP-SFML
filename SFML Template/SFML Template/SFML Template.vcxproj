@@ -142,6 +142,7 @@
     <ClCompile Include="AssetManager.cpp" />
     <ClCompile Include="Game.cpp" />
     <ClCompile Include="InputManager.cpp" />
+    <ClCompile Include="MainMenuState.cpp" />
     <ClCompile Include="SFML Template.cpp" />
     <ClCompile Include="SplashState.cpp" />
     <ClCompile Include="State.cpp" />
@@ -152,6 +153,7 @@
     <ClInclude Include="DEFINATIONS.h" />
     <ClInclude Include="Game.h" />
     <ClInclude Include="InputManager.h" />
+    <ClInclude Include="MainMenuState.h" />
     <ClInclude Include="SplashState.h" />
     <ClInclude Include="State.hpp" />
     <ClInclude Include="StateMachine.h" />
