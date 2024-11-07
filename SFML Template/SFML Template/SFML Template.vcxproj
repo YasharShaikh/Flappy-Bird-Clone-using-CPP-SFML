@@ -157,16 +157,6 @@
     <ClInclude Include="StateMachine.h" />
   </ItemGroup>
   <ItemGroup>
-    <Font Include="Resources\fonts\arial.ttf" />
-    <Font Include="Resources\fonts\FlappyFont.ttf" />
-    <Font Include="Resources\fonts\Marker Felt.ttf" />
-  </ItemGroup>
-  <ItemGroup>
-    <Media Include="Resources\audio\Hit.wav" />
-    <Media Include="Resources\audio\Point.wav" />
-    <Media Include="Resources\audio\Wing.wav" />
-  </ItemGroup>
-  <ItemGroup>
     <Image Include="Resources\res\bird-01.png" />
     <Image Include="Resources\res\bird-02.png" />
     <Image Include="Resources\res\bird-03.png" />
@@ -185,6 +175,16 @@
     <Image Include="Resources\res\sky.png" />
     <Image Include="Resources\res\Splash Background.png" />
     <Image Include="Resources\res\title.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="Resources\fonts\arial.ttf" />
+    <Font Include="Resources\fonts\FlappyFont.ttf" />
+    <Font Include="Resources\fonts\Marker Felt.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Resources\audio\Hit.wav" />
+    <Media Include="Resources\audio\Point.wav" />
+    <Media Include="Resources\audio\Wing.wav" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

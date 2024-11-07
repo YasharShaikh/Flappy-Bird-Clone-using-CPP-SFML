@@ -9,6 +9,10 @@
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
       <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
     </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="SFML Template.cpp">
@@ -26,10 +30,10 @@
     <ClCompile Include="InputManager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Game.cpp">
+    <ClCompile Include="SplashState.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="SplashState.cpp">
+    <ClCompile Include="Game.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -46,44 +50,92 @@
     <ClInclude Include="InputManager.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Game.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="DEFINATIONS.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="SplashState.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <Font Include="Resources\fonts\arial.ttf" />
-    <Font Include="Resources\fonts\FlappyFont.ttf" />
-    <Font Include="Resources\fonts\Marker Felt.ttf" />
+    <Image Include="Resources\res\bird-01.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\res\bird-02.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\res\bird-03.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\res\bird-04.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\res\Bronze-Medal.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\res\Game-Over-Body.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\res\Game-Over-Title.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\res\Gold-Medal.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\res\InvisibleScoringPipe.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\res\land.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\res\PipeDown.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\res\PipeUp.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\res\Platinum-Medal.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\res\PlayButton.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\res\Silver-Medal.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\res\sky.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\res\Splash Background.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\res\title.png">
+      <Filter>Resource Files</Filter>
+    </Image>
   </ItemGroup>
   <ItemGroup>
-    <Media Include="Resources\audio\Hit.wav" />
-    <Media Include="Resources\audio\Point.wav" />
-    <Media Include="Resources\audio\Wing.wav" />
+    <Font Include="Resources\fonts\arial.ttf">
+      <Filter>Resource Files</Filter>
+    </Font>
+    <Font Include="Resources\fonts\FlappyFont.ttf">
+      <Filter>Resource Files</Filter>
+    </Font>
+    <Font Include="Resources\fonts\Marker Felt.ttf">
+      <Filter>Resource Files</Filter>
+    </Font>
   </ItemGroup>
   <ItemGroup>
-    <Image Include="Resources\res\bird-01.png" />
-    <Image Include="Resources\res\bird-02.png" />
-    <Image Include="Resources\res\bird-03.png" />
-    <Image Include="Resources\res\bird-04.png" />
-    <Image Include="Resources\res\Bronze-Medal.png" />
-    <Image Include="Resources\res\Game-Over-Body.png" />
-    <Image Include="Resources\res\Game-Over-Title.png" />
-    <Image Include="Resources\res\Gold-Medal.png" />
-    <Image Include="Resources\res\InvisibleScoringPipe.png" />
-    <Image Include="Resources\res\land.png" />
-    <Image Include="Resources\res\PipeDown.png" />
-    <Image Include="Resources\res\PipeUp.png" />
-    <Image Include="Resources\res\Platinum-Medal.png" />
-    <Image Include="Resources\res\PlayButton.png" />
-    <Image Include="Resources\res\Silver-Medal.png" />
-    <Image Include="Resources\res\sky.png" />
-    <Image Include="Resources\res\Splash Background.png" />
-    <Image Include="Resources\res\title.png" />
+    <Media Include="Resources\audio\Hit.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="Resources\audio\Point.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="Resources\audio\Wing.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
   </ItemGroup>
 </Project>

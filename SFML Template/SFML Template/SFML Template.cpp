@@ -2,13 +2,13 @@
 //
 
 #include <iostream>
-#include "Game.h"
 #include "DEFINATIONS.h"
+#include "Game.h"
 
 int main()
 {
-	flappybird::Game(800, 600, "Flappy Bird"); 
-	return EXIT_SUCCESS;
+	flappybird::Game(SCREEN_WIDTH, SCREEN_HEIGHT, "Flappy Bird");
+
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu

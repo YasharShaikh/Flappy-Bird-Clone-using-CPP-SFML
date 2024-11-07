@@ -1,3 +1,2 @@
-﻿  SplashState.cpp
-C:\Game\Flappy-Bird-Clone-using-CPP-SFML\SFML Template\SFML Template\Game.h(30): warning C4305: 'initializing': truncation from 'double' to 'const float'
+﻿  Game.cpp
   SFML Template.vcxproj -> C:\Game\Flappy-Bird-Clone-using-CPP-SFML\SFML Template\x64\Debug\SFML Template.exe

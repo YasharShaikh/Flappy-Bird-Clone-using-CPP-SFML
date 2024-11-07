@@ -7,22 +7,23 @@ namespace flappybird
 {
 	class SplashState : public State
 	{
+
 	public:
-		SplashState(gameDataRef data);
+		SplashState(GameDataRef data);
 
 		void Init();
+
 		void HandleInput();
 		void Update(float dt);
 		void Draw(float dt);
 
-
-
 	private:
-		gameDataRef _data;
-		sf::Clock _clock;
-		sf::Texture _backgroundText;
-		sf::Sprite _backgroundSprite;
-	};
+		GameDataRef _data;
 
+		sf::Clock _clock;
+
+		sf::Sprite _background;
+	};
 }
+
 
