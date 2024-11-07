@@ -3,7 +3,6 @@
 #include <iostream>
 #include "DEFINATIONS.h"
 #include "GameState.h"
-#include "GameOverState.h"
 namespace flappybird
 {
 	flappybird::MainMenuState::MainMenuState(GameDataRef data) : _data(data)
@@ -37,7 +36,7 @@ namespace flappybird
 			}
 			if (this->_data->input.IsSpriteClicked(this->_playButton, sf::Mouse::Left, this->_data->window))
 			{
-				_data->machine.AddState(stateRef(new GameOverState(this->_data)), true);
+				_data->machine.AddState(stateRef(new GameState(this->_data)), true);
 				std::cout << "Going to Game Screen " << std::endl;
 			}
 		}

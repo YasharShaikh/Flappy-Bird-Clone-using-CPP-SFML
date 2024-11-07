@@ -2,6 +2,8 @@
 #include <SFML/Graphics.hpp>
 #include "State.hpp"
 #include "Game.h"
+#include "Pipe.h"
+
 
 namespace flappybird
 {
@@ -22,6 +24,8 @@ namespace flappybird
 		GameDataRef _data;
 		sf::Clock _clock;
 		sf::Sprite _background;
+
+		Pipe* pipe;
 	};
 
 }

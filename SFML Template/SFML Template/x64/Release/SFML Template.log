@@ -1,9 +1,27 @@
 ﻿  GameOverState.cpp
+  GameState.cpp
   MainMenuState.cpp
+  Pipe.cpp
+C:\Game\Flappy-Bird-Clone-using-CPP-SFML\SFML Template\SFML Template\Pipe.cpp(13,45): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+C:\Game\Flappy-Bird-Clone-using-CPP-SFML\SFML Template\SFML Template\Pipe.cpp(20,45): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+C:\Game\Flappy-Bird-Clone-using-CPP-SFML\SFML Template\SFML Template\Pipe.cpp(26,45): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+  SFML Template.cpp
   SplashState.cpp
   Generating code
-  1 of 394 functions ( 0.3%) were compiled, the rest were copied from previous compilation.
-    0 functions were new in current compilation
-    0 functions had inline decision re-evaluated but remain unchanged
+  127 of 449 functions (28.3%) were compiled, the rest were copied from previous compilation.
+    56 functions were new in current compilation
+    45 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
   SFML Template.vcxproj -> C:\Game\Flappy-Bird-Clone-using-CPP-SFML\SFML Template\x64\Release\SFML Template.exe

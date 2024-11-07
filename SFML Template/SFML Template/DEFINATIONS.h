@@ -11,6 +11,10 @@
 #define GAME_TITLE_FILEPATH "Resources/res/title.png"
 #define PLAY_BUTTON_FILEPATH "Resources/res/PlayButton.png"
 
+#define PIPE_UP_FILEPATH "Resources/res/PipeUp.png"
+#define PIPE_DOWN_FILEPATH "Resources/res/PipeDown.png"
+#define PIPE_MOVEMENT_SPEED 200.0f
+
 
 #define GAMEOVER_STATE_BACKGROUND_FILEPATH "Resources/res/Game-Over-Body.png"
 #define GAMEOVER_TITLE_FILEPATH "Resources/res/Game-Over-Title.png"
