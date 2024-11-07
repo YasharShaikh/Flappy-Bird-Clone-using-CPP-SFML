@@ -2,7 +2,7 @@
 #include <sstream>
 #include <iostream>
 #include "DEFINATIONS.h"
-
+#include "GameState.h"
 namespace flappybird
 {
 	flappybird::MainMenuState::MainMenuState(GameDataRef data) : _data(data)
@@ -11,7 +11,7 @@ namespace flappybird
 
 	void flappybird::MainMenuState::Init()
 	{
-		this->_data->assets.LoadTexture("Main Menu State Background", MAIN_MENU_BACKGROUND_FILEPATH);
+		this->_data->assets.LoadTexture("Main Menu State Background", GAME_BACKGROUND_FILEPATH);
 		this->_data->assets.LoadTexture("Title", GAME_TITLE_FILEPATH);
 		this->_data->assets.LoadTexture("Play Button", PLAY_BUTTON_FILEPATH);
 
@@ -36,7 +36,8 @@ namespace flappybird
 			}
 			if (this->_data->input.IsSpriteClicked(this->_playButton, sf::Mouse::Left, this->_data->window))
 			{
-				std::cout << "go to game screen" << std::endl;
+				_data->machine.AddState(stateRef(new GameState(this->_data)), true);
+				std::cout << "Going to Game Screen " << std::endl;
 			}
 		}
 	}

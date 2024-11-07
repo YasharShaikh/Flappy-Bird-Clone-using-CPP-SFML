@@ -141,6 +141,7 @@
   <ItemGroup>
     <ClCompile Include="AssetManager.cpp" />
     <ClCompile Include="Game.cpp" />
+    <ClCompile Include="GameState.cpp" />
     <ClCompile Include="InputManager.cpp" />
     <ClCompile Include="MainMenuState.cpp" />
     <ClCompile Include="SFML Template.cpp" />
@@ -152,6 +153,7 @@
     <ClInclude Include="AssetManager.h" />
     <ClInclude Include="DEFINATIONS.h" />
     <ClInclude Include="Game.h" />
+    <ClInclude Include="GameState.h" />
     <ClInclude Include="InputManager.h" />
     <ClInclude Include="MainMenuState.h" />
     <ClInclude Include="SplashState.h" />
