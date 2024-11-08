@@ -3,7 +3,7 @@
 #include "State.hpp"
 #include "Game.h"
 #include "Pipe.h"
-
+#include "Land.h"
 
 namespace flappybird
 {
@@ -26,6 +26,7 @@ namespace flappybird
 		sf::Sprite _background;
 
 		Pipe* pipe;
+		Land* land;
 	};
 
 }

@@ -15,10 +15,14 @@ namespace flappybird
 		void SpawnInvisiblePipe();
 		void MovePipe(float dt);
 		void DrawPipes();
+		void RandomizePipeOffset();
+
 
 	private:
 		GameDataRef _data;
 		std::vector<sf::Sprite> pipeSprites;
+		int _landHeight;
+		int _pipeSpawnYOffset;
 
 	};
 
