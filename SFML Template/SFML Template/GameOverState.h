@@ -22,8 +22,9 @@ namespace flappybird
 		GameDataRef _data;
 		sf::Clock _clock;
 		sf::Sprite _backgrounds;
-		sf::Sprite _background;
+		sf::Sprite _container;
 		sf::Sprite _title;
+		sf::Sprite _retryButton;
 
 	};
 

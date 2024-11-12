@@ -1,7 +1,12 @@
-﻿  GameState.cpp
+﻿  GameOverState.cpp
+E:\SFML\Flappy-Bird-Clone-using-CPP-SFML\SFML Template\SFML Template\GameOverState.cpp(25,184): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
   Generating code
-  0 of 616 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+  3 of 616 functions ( 0.5%) were compiled, the rest were copied from previous compilation.
     0 functions were new in current compilation
-    0 functions had inline decision re-evaluated but remain unchanged
+    36 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
   SFML Template.vcxproj -> E:\SFML\Flappy-Bird-Clone-using-CPP-SFML\SFML Template\x64\Release\SFML Template.exe
