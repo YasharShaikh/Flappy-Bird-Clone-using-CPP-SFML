@@ -13,7 +13,7 @@ namespace flappybird
 	void flappybird::GameOverState::Init()
 	{
 
-		this->_data->assets.LoadTexture("Game Over Background", GAMEOVER_STATE_BACKGROUND_FILEPATH);
+		this->_data->assets.LoadTexture("Game Over Background", GAMEOVER_STATE_CONTAINER_FILEPATH);
 		this->_data->assets.LoadTexture("Game Over Title", GAMEOVER_TITLE_FILEPATH);
 		
 		_background.setTexture(this->_data->assets.GetTexture("Game Over Background"));

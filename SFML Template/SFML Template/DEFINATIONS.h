@@ -16,12 +16,12 @@
 #define INVISIBLE_SCORING_PIPE_FILEPATH "Resources/res/InvisibleScoringPipe.png"
 #define LAND_FILEPATH "Resources/res/land.png"
 #define PIPE_MOVEMENT_SPEED 200.0f
-
-
-#define GAMEOVER_STATE_BACKGROUND_FILEPATH "Resources/res/Game-Over-Body.png"
-#define GAMEOVER_TITLE_FILEPATH "Resources/res/Game-Over-Title.png"
 #define PIPE_SPAWN_FREQUENCY 0.5f
 
+
+#define GAMEOVER_STATE_CONTAINER_FILEPATH "Resources/res/Game-Over-Body.png"
+#define GAMEOVER_TITLE_FILEPATH "Resources/res/Game-Over-Title.png"
+#define TIME_BEFORE_GAME_OVER 1.5f	
 
 #define BIRD_FRAME_1 "Resources/res/bird-01.png"
 #define BIRD_FRAME_2 "Resources/res/bird-02.png"

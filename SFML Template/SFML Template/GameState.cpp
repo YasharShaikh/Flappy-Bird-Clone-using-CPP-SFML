@@ -2,7 +2,7 @@
 #include <sstream>
 #include <iostream>
 #include "DEFINATIONS.h"
-
+#include "GameOverState.h"
 
 namespace flappybird
 {
@@ -84,6 +84,7 @@ namespace flappybird
 				if (collision.CheckSpriteCollision(bird->getSprite(), 0.7f, landSprite.at(i), 0.1f))
 				{
 					_gameState = GameStates::eGameOver;
+					_clock.restart();
 				}
 			}
 
@@ -93,6 +94,7 @@ namespace flappybird
 				if (collision.CheckSpriteCollision(bird->getSprite(), 0.625f, pipeSprite.at(i), 1.0f))
 				{
 					_gameState = GameStates::eGameOver;
+					_clock.restart();
 				}
 			}
 
@@ -115,6 +117,10 @@ namespace flappybird
 		if (GameStates::eGameOver == _gameState)
 		{
 			flash->Show(dt);
+			if (_clock.getElapsedTime().asSeconds() > TIME_BEFORE_GAME_OVER)
+			{
+				_data->machine.AddState(stateRef(new GameOverState(_data)), true);
+			}
 		}
 
 	}
