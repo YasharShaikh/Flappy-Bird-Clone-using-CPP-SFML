@@ -27,7 +27,7 @@ namespace flappybird
 		sf::Sprite _retryButton;
 		sf::Text _scoreText;
 		sf::Text _highScoreText;
-
+		sf::Sprite _Medal;
 		int _score;
 		int _highScore;
 

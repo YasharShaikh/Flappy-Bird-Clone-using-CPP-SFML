@@ -3,20 +3,28 @@
   "WorkspaceRootPath": "E:\\SFML\\Flappy-Bird-Clone-using-CPP-SFML\\SFML Template\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{702BD725-BC13-421A-962E-7DB829CBBA90}|SFML Template\\SFML Template.vcxproj|E:\\SFML\\Flappy-Bird-Clone-using-CPP-SFML\\SFML Template\\SFML Template\\GameOverState.cpp||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{702BD725-BC13-421A-962E-7DB829CBBA90}|SFML Template\\SFML Template.vcxproj|solutionrelative:SFML Template\\GameOverState.cpp||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{702BD725-BC13-421A-962E-7DB829CBBA90}|SFML Template\\SFML Template.vcxproj|E:\\SFML\\Flappy-Bird-Clone-using-CPP-SFML\\SFML Template\\SFML Template\\DEFINATIONS.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{702BD725-BC13-421A-962E-7DB829CBBA90}|SFML Template\\SFML Template.vcxproj|solutionrelative:SFML Template\\DEFINATIONS.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{702BD725-BC13-421A-962E-7DB829CBBA90}|SFML Template\\SFML Template.vcxproj|E:\\SFML\\Flappy-Bird-Clone-using-CPP-SFML\\SFML Template\\SFML Template\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{702BD725-BC13-421A-962E-7DB829CBBA90}|SFML Template\\SFML Template.vcxproj|solutionrelative:SFML Template\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{702BD725-BC13-421A-962E-7DB829CBBA90}|SFML Template\\SFML Template.vcxproj|E:\\SFML\\Flappy-Bird-Clone-using-CPP-SFML\\SFML Template\\SFML Template\\GameState.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{702BD725-BC13-421A-962E-7DB829CBBA90}|SFML Template\\SFML Template.vcxproj|solutionrelative:SFML Template\\GameState.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{702BD725-BC13-421A-962E-7DB829CBBA90}|SFML Template\\SFML Template.vcxproj|E:\\SFML\\Flappy-Bird-Clone-using-CPP-SFML\\SFML Template\\SFML Template\\AssetManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{702BD725-BC13-421A-962E-7DB829CBBA90}|SFML Template\\SFML Template.vcxproj|solutionrelative:SFML Template\\AssetManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{702BD725-BC13-421A-962E-7DB829CBBA90}|SFML Template\\SFML Template.vcxproj|E:\\SFML\\Flappy-Bird-Clone-using-CPP-SFML\\SFML Template\\SFML Template\\DEFINATIONS.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{702BD725-BC13-421A-962E-7DB829CBBA90}|SFML Template\\SFML Template.vcxproj|solutionrelative:SFML Template\\DEFINATIONS.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{702BD725-BC13-421A-962E-7DB829CBBA90}|SFML Template\\SFML Template.vcxproj|E:\\SFML\\Flappy-Bird-Clone-using-CPP-SFML\\SFML Template\\SFML Template\\GameState.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{702BD725-BC13-421A-962E-7DB829CBBA90}|SFML Template\\SFML Template.vcxproj|solutionrelative:SFML Template\\GameState.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{702BD725-BC13-421A-962E-7DB829CBBA90}|SFML Template\\SFML Template.vcxproj|E:\\SFML\\Flappy-Bird-Clone-using-CPP-SFML\\SFML Template\\SFML Template\\GameOverState.cpp||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{702BD725-BC13-421A-962E-7DB829CBBA90}|SFML Template\\SFML Template.vcxproj|solutionrelative:SFML Template\\GameOverState.cpp||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{702BD725-BC13-421A-962E-7DB829CBBA90}|SFML Template\\SFML Template.vcxproj|E:\\SFML\\Flappy-Bird-Clone-using-CPP-SFML\\SFML Template\\SFML Template\\GameOverState.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -42,37 +50,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 364,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
+              "Title": "Game.cpp",
+              "DocumentMoniker": "E:\\SFML\\Flappy-Bird-Clone-using-CPP-SFML\\SFML Template\\SFML Template\\Game.cpp",
+              "RelativeDocumentMoniker": "SFML Template\\Game.cpp",
+              "ToolTip": "E:\\SFML\\Flappy-Bird-Clone-using-CPP-SFML\\SFML Template\\SFML Template\\Game.cpp",
+              "RelativeToolTip": "SFML Template\\Game.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-12T18:19:05.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AssetManager.cpp",
+              "DocumentMoniker": "E:\\SFML\\Flappy-Bird-Clone-using-CPP-SFML\\SFML Template\\SFML Template\\AssetManager.cpp",
+              "RelativeDocumentMoniker": "SFML Template\\AssetManager.cpp",
+              "ToolTip": "E:\\SFML\\Flappy-Bird-Clone-using-CPP-SFML\\SFML Template\\SFML Template\\AssetManager.cpp",
+              "RelativeToolTip": "SFML Template\\AssetManager.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-12T18:18:37.237Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "GameOverState.h",
               "DocumentMoniker": "E:\\SFML\\Flappy-Bird-Clone-using-CPP-SFML\\SFML Template\\SFML Template\\GameOverState.h",
               "RelativeDocumentMoniker": "SFML Template\\GameOverState.h",
               "ToolTip": "E:\\SFML\\Flappy-Bird-Clone-using-CPP-SFML\\SFML Template\\SFML Template\\GameOverState.h",
               "RelativeToolTip": "SFML Template\\GameOverState.h",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAABgAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABUAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-11-12T14:36:18.833Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "GameOverState.cpp",
               "DocumentMoniker": "E:\\SFML\\Flappy-Bird-Clone-using-CPP-SFML\\SFML Template\\SFML Template\\GameOverState.cpp",
               "RelativeDocumentMoniker": "SFML Template\\GameOverState.cpp",
               "ToolTip": "E:\\SFML\\Flappy-Bird-Clone-using-CPP-SFML\\SFML Template\\SFML Template\\GameOverState.cpp",
               "RelativeToolTip": "SFML Template\\GameOverState.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAG4AAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-11-12T14:35:53.259Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "MainMenuState.cpp",
               "DocumentMoniker": "E:\\SFML\\Flappy-Bird-Clone-using-CPP-SFML\\SFML Template\\SFML Template\\MainMenuState.cpp",
               "RelativeDocumentMoniker": "SFML Template\\MainMenuState.cpp",
@@ -85,7 +119,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "HUD.cpp",
               "DocumentMoniker": "E:\\SFML\\Flappy-Bird-Clone-using-CPP-SFML\\SFML Template\\SFML Template\\HUD.cpp",
               "RelativeDocumentMoniker": "SFML Template\\HUD.cpp",
@@ -98,7 +132,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "HUD.h",
               "DocumentMoniker": "E:\\SFML\\Flappy-Bird-Clone-using-CPP-SFML\\SFML Template\\SFML Template\\HUD.h",
               "RelativeDocumentMoniker": "SFML Template\\HUD.h",
@@ -111,39 +145,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "DEFINATIONS.h",
               "DocumentMoniker": "E:\\SFML\\Flappy-Bird-Clone-using-CPP-SFML\\SFML Template\\SFML Template\\DEFINATIONS.h",
               "RelativeDocumentMoniker": "SFML Template\\DEFINATIONS.h",
               "ToolTip": "E:\\SFML\\Flappy-Bird-Clone-using-CPP-SFML\\SFML Template\\SFML Template\\DEFINATIONS.h",
               "RelativeToolTip": "SFML Template\\DEFINATIONS.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAACgAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-11-11T14:54:55.292Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "GameState.h",
               "DocumentMoniker": "E:\\SFML\\Flappy-Bird-Clone-using-CPP-SFML\\SFML Template\\SFML Template\\GameState.h",
               "RelativeDocumentMoniker": "SFML Template\\GameState.h",
               "ToolTip": "E:\\SFML\\Flappy-Bird-Clone-using-CPP-SFML\\SFML Template\\SFML Template\\GameState.h",
               "RelativeToolTip": "SFML Template\\GameState.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAALAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-11-11T14:54:55.294Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "GameState.cpp",
               "DocumentMoniker": "E:\\SFML\\Flappy-Bird-Clone-using-CPP-SFML\\SFML Template\\SFML Template\\GameState.cpp",
               "RelativeDocumentMoniker": "SFML Template\\GameState.cpp",
               "ToolTip": "E:\\SFML\\Flappy-Bird-Clone-using-CPP-SFML\\SFML Template\\SFML Template\\GameState.cpp",
               "RelativeToolTip": "SFML Template\\GameState.cpp",
-              "ViewState": "AgIAAGwAAAAAAAAAAAAQwHUAAAADAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-11-11T14:54:55.294Z",
               "EditorCaption": ""

@@ -12,6 +12,15 @@ namespace flappybird
 	}
 	void GameState::Init()
 	{
+		_hitSoundBuffer.loadFromFile(HIT_SOUND_FILEPATH);
+		_pointSoundBuffer.loadFromFile(POINT_SOUND_FILEPATH);
+		_wingSoundBuffer.loadFromFile(WING_SOUND_FILEPATH);
+
+		_hitSound.setBuffer(_hitSoundBuffer);
+		_pointSound.setBuffer(_pointSoundBuffer);
+		_wingSound.setBuffer(_wingSoundBuffer);
+
+
 		this->_data->assets.LoadTexture("Game State Background", GAME_BACKGROUND_FILEPATH);
 		this->_data->assets.LoadTexture("Pipe Down", PIPE_DOWN_FILEPATH);
 		this->_data->assets.LoadTexture("Pipe Up", PIPE_UP_FILEPATH);
@@ -51,6 +60,7 @@ namespace flappybird
 				{
 					_gameState = GameStates::ePlaying;
 					bird->Tap();
+					_wingSound.play();
 				}
 			}
 		}
@@ -85,6 +95,7 @@ namespace flappybird
 				{
 					_gameState = GameStates::eGameOver;
 					_clock.restart();
+					_hitSound.play();
 				}
 			}
 
@@ -95,6 +106,7 @@ namespace flappybird
 				{
 					_gameState = GameStates::eGameOver;
 					_clock.restart();
+					_hitSound.play();
 				}
 			}
 
@@ -109,6 +121,7 @@ namespace flappybird
 						_score++;
 						hud->UpdateScore(_score);
 						scoringSprites.erase(scoringSprites.begin() + i);
+						_pointSound.play();
 					}
 				}
 			}

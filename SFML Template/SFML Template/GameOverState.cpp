@@ -36,6 +36,10 @@ namespace flappybird
 
 		this->_data->assets.LoadTexture("Game Over Container", GAMEOVER_STATE_CONTAINER_FILEPATH);
 		this->_data->assets.LoadTexture("Game Over Title", GAMEOVER_TITLE_FILEPATH);
+		this->_data->assets.LoadTexture("Bronze Medal", BRONZE_MEDAL_FILEPATH);
+		this->_data->assets.LoadTexture("Silver Medal", SILVER_MEDAL_FILEPATH);
+		this->_data->assets.LoadTexture("Gold Medal", GOLD_MEDAL_FILEPATH);
+		this->_data->assets.LoadTexture("Platnium Medal", PLATNIUM_MEDAL_FILEPATH);
 		
 		_backgrounds.setTexture(this->_data->assets.GetTexture("Main Menu State Background"));
 		_container.setTexture(this->_data->assets.GetTexture("Game Over Container"));
@@ -61,6 +65,23 @@ namespace flappybird
 		_highScoreText.setOrigin(sf::Vector2f(_highScoreText.getGlobalBounds().width / 2, _highScoreText.getGlobalBounds().height / 2));
 		_highScoreText.setPosition(sf::Vector2f(_data->window.getSize().x / 10 * 7.25, _data->window.getSize().y / 1.78));
 
+		if (_score >= BRONZE_MEDAL_SCORE)
+		{
+			_Medal.setTexture(_data->assets.GetTexture("Bronze Medal"));
+		}
+		else if (_score >= SILVER_MEDAL_SCORE)
+		{
+			_Medal.setTexture(_data->assets.GetTexture("Silver Medal"));
+		}
+		else if (_score >= GOLD_MEDAL_SCORE)
+		{
+			_Medal.setTexture(_data->assets.GetTexture("Gold Medal"));
+		}
+		else if (_score >= PLATNIUM_MEDAL_SCORE)
+		{
+			_Medal.setTexture(_data->assets.GetTexture("Platnium Medal"));
+		}
+		_Medal.setPosition(175, 465);
 	}
 
 	void flappybird::GameOverState::HandleInput()
@@ -90,6 +111,7 @@ namespace flappybird
 		this->_data->window.draw(this->_container);
 		this->_data->window.draw(this->_title);
 		this->_data->window.draw(this->_retryButton);
+		this->_data->window.draw(this->_Medal);
 		this->_data->window.draw(_scoreText);
 		this->_data->window.draw(_highScoreText);
 		this->_data->window.display();
