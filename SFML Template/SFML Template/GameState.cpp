@@ -21,9 +21,11 @@ namespace flappybird
 		this->_data->assets.LoadTexture("Bird Frame 3", BIRD_FRAME_3);
 		this->_data->assets.LoadTexture("Bird Frame 4", BIRD_FRAME_4);
 		_background.setTexture(this->_data->assets.GetTexture("Game State Background"));
+
 		pipe = new Pipe(_data);
 		land = new Land(_data);
 		bird = new Bird(_data);
+		flash = new Flash(_data);
 
 		_gameState = GameStates::eReady;
 	}
@@ -88,6 +90,11 @@ namespace flappybird
 			}
 		}
 
+		if (GameStates::eGameOver == _gameState)
+		{
+			flash->Show(dt);
+		}
+
 	}
 	void GameState::Draw(float dt)
 	{
@@ -96,6 +103,7 @@ namespace flappybird
 		pipe->DrawPipes();
 		land->DrawLand();
 		bird->DrawBird();
+		flash->Draw();
 		this->_data->window.display();
 	}
 }
