@@ -7,6 +7,7 @@
 #include "Bird.h"
 #include "Collision.h"
 #include "Flash.h"
+#include "HUD.h"
 namespace flappybird
 {
 	class GameState : public State
@@ -32,9 +33,10 @@ namespace flappybird
 		Bird* bird;
 		Collision collision;
 		Flash* flash;
-
+		HUD* hud;
 
 		int _gameState;
+		int _score;
 	};
 
 }

@@ -1,4 +1,5 @@
-﻿  Flash.cpp
+﻿  Bird.cpp
+  Flash.cpp
 E:\SFML\Flappy-Bird-Clone-using-CPP-SFML\SFML Template\SFML Template\Flash.cpp(6,94): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
@@ -21,11 +22,58 @@ E:\SFML\Flappy-Bird-Clone-using-CPP-SFML\SFML Template\SFML Template\Flash.cpp(1
 E:\SFML\Flappy-Bird-Clone-using-CPP-SFML\SFML Template\SFML Template\Flash.cpp(19,13): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
 E:\SFML\Flappy-Bird-Clone-using-CPP-SFML\SFML Template\SFML Template\Flash.cpp(27,14): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
 E:\SFML\Flappy-Bird-Clone-using-CPP-SFML\SFML Template\SFML Template\Flash.cpp(31,13): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  GameOverState.cpp
   GameState.cpp
+  HUD.cpp
+E:\SFML\Flappy-Bird-Clone-using-CPP-SFML\SFML Template\SFML Template\HUD.cpp(13,83): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+E:\SFML\Flappy-Bird-Clone-using-CPP-SFML\SFML Template\SFML Template\HUD.cpp(13,52): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+  Land.cpp
+E:\SFML\Flappy-Bird-Clone-using-CPP-SFML\SFML Template\SFML Template\Land.cpp(30,51): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
   MainMenuState.cpp
+  Pipe.cpp
+E:\SFML\Flappy-Bird-Clone-using-CPP-SFML\SFML Template\SFML Template\Pipe.cpp(14,51): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+E:\SFML\Flappy-Bird-Clone-using-CPP-SFML\SFML Template\SFML Template\Pipe.cpp(21,55): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\SFML\Flappy-Bird-Clone-using-CPP-SFML\SFML Template\SFML Template\Pipe.cpp(21,51): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+E:\SFML\Flappy-Bird-Clone-using-CPP-SFML\SFML Template\SFML Template\Pipe.cpp(28,51): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+E:\SFML\Flappy-Bird-Clone-using-CPP-SFML\SFML Template\SFML Template\Pipe.cpp(36,55): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\SFML\Flappy-Bird-Clone-using-CPP-SFML\SFML Template\SFML Template\Pipe.cpp(36,51): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+  SFML Template.cpp
+  SplashState.cpp
   Generating code
-  8 of 554 functions ( 1.4%) were compiled, the rest were copied from previous compilation.
+  2 of 610 functions ( 0.3%) were compiled, the rest were copied from previous compilation.
     0 functions were new in current compilation
-    2 functions had inline decision re-evaluated but remain unchanged
+    0 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
   SFML Template.vcxproj -> E:\SFML\Flappy-Bird-Clone-using-CPP-SFML\SFML Template\x64\Release\SFML Template.exe

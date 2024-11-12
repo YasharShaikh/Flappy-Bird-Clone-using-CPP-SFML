@@ -13,6 +13,7 @@
 
 #define PIPE_UP_FILEPATH "Resources/res/PipeUp.png"
 #define PIPE_DOWN_FILEPATH "Resources/res/PipeDown.png"
+#define INVISIBLE_SCORING_PIPE_FILEPATH "Resources/res/InvisibleScoringPipe.png"
 #define LAND_FILEPATH "Resources/res/land.png"
 #define PIPE_MOVEMENT_SPEED 200.0f
 
@@ -27,7 +28,7 @@
 #define BIRD_FRAME_3 "Resources/res/bird-03.png"
 #define BIRD_FRAME_4 "Resources/res/bird-04.png"
 #define BIRD_ANIMATION_DURATION 0.4f	
-
+#define SCORE_POINTS_FONT "Resources/fonts/FlappyFont.ttf"
 
 #define BIRD_STATE_STILL 1
 #define BIRD_STATE_FALL 2

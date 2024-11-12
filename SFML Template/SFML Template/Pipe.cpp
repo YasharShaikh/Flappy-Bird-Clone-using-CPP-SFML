@@ -22,6 +22,14 @@ namespace flappybird
 		pipeSprites.push_back(sprite);
 	}
 
+	void Pipe::SpawnScoringPipe()
+	{
+		sf::Sprite sprite(this->_data->assets.GetTexture("Scoring Pipe"));
+		sprite.setPosition(this->_data->window.getSize().x, 0);
+		scoringPipeSprites.push_back(sprite);
+	}
+
+
 	void Pipe::SpawnInvisiblePipe()
 	{
 		sf::Sprite sprite(this->_data->assets.GetTexture("Pipe Down"));
@@ -46,6 +54,20 @@ namespace flappybird
 				pipeSprites.at(i).move(-movement, 0);
 			}
 		}
+		for (unsigned short int i = 0; i < scoringPipeSprites.size(); i++)
+		{
+			if (scoringPipeSprites.at(i).getPosition().x < 0 - scoringPipeSprites.at(i).getLocalBounds().width)
+			{
+				scoringPipeSprites.erase(scoringPipeSprites.begin( ) + i );
+			}
+			else
+			{
+				sf::Vector2f position = scoringPipeSprites.at(i).getPosition();
+				float movement = PIPE_MOVEMENT_SPEED * dt;
+
+				scoringPipeSprites.at(i).move(-movement, 0);
+			}
+		}
 	}
 	void Pipe::DrawPipes()
 	{
@@ -61,5 +83,9 @@ namespace flappybird
 	const std::vector<sf::Sprite>& Pipe::getSprite() const
 	{
 		return pipeSprites;
+	}
+	std::vector<sf::Sprite>& Pipe::getScoringSprite() 
+	{
+		return scoringPipeSprites;
 	}
 }
