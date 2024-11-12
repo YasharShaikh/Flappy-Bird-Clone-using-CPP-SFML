@@ -13,6 +13,8 @@ namespace flappybird
 		void Moveland(float dt);
 		void DrawLand();
 
+		const std::vector<sf::Sprite>& getSprite() const;
+
 
 	private:
 

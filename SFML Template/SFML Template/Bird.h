@@ -15,6 +15,7 @@ namespace flappybird
 		void Animate(float dt);
 		void Update(float dt);
 		void Tap();
+		const sf::Sprite& getSprite() const;
 
 	private:
 		GameDataRef _data;
@@ -23,7 +24,7 @@ namespace flappybird
 		unsigned int _animationIterator;
 		sf::Clock _clock;
 		sf::Clock _movementClock;
-
+		float _rotation;
 		int birdState;
 	};
 

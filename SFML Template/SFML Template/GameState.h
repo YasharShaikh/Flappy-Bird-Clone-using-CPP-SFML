@@ -5,6 +5,7 @@
 #include "Pipe.h"
 #include "Land.h"
 #include "Bird.h"
+#include "Collision.h"
 namespace flappybird
 {
 	class GameState : public State
@@ -28,6 +29,9 @@ namespace flappybird
 		Pipe* pipe;
 		Land* land;
 		Bird* bird;
+		Collision collision;
+
+		int _gameState;
 	};
 
 }

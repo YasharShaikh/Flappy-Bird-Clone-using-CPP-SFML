@@ -17,6 +17,8 @@ namespace flappybird
 		void DrawPipes();
 		void RandomizePipeOffset();
 
+		const std::vector<sf::Sprite>& getSprite() const;
+
 
 	private:
 		GameDataRef _data;

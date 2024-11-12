@@ -1,16 +1,4 @@
-﻿  Bird.cpp
-  GameOverState.cpp
-  GameState.cpp
-  Land.cpp
-E:\SFML\Flappy-Bird-Clone-using-CPP-SFML\SFML Template\SFML Template\Land.cpp(30,51): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
-          with
-          [
-              T=unsigned int
-          ]
-          and
-          [
-              T=float
-          ]
+﻿  GameState.cpp
   MainMenuState.cpp
   Pipe.cpp
 E:\SFML\Flappy-Bird-Clone-using-CPP-SFML\SFML Template\SFML Template\Pipe.cpp(14,51): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
@@ -30,11 +18,9 @@ E:\SFML\Flappy-Bird-Clone-using-CPP-SFML\SFML Template\SFML Template\Pipe.cpp(28
           [
               T=unsigned int
           ]
-  SFML Template.cpp
-  SplashState.cpp
   Generating code
-  2 of 523 functions ( 0.4%) were compiled, the rest were copied from previous compilation.
-    0 functions were new in current compilation
-    0 functions had inline decision re-evaluated but remain unchanged
+  Previous IPDB and IOBJ mismatch, fall back to full compilation.
+E:\SFML\Flappy-Bird-Clone-using-CPP-SFML\SFML Template\SFML Template\StateMachine.cpp(62): warning C4715: 'flappybird::StateMachine::GetActiveState': not all control paths return a value
+  All 550 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
   Finished generating code
   SFML Template.vcxproj -> E:\SFML\Flappy-Bird-Clone-using-CPP-SFML\SFML Template\x64\Release\SFML Template.exe

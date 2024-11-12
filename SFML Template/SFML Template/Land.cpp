@@ -42,5 +42,10 @@ namespace flappybird
 		}
 	}
 
+	const std::vector<sf::Sprite>& Land::getSprite() const
+	{
+		return _landSprite;
+	}
+
 }
 

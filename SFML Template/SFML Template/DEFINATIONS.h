@@ -36,3 +36,11 @@
 #define GRAVITY 350.0f
 #define FLY_SPEED 350.0f
 #define FLY_DURATION 0.25f
+#define ROTATE_SPEED 100.0f
+
+enum GameStates
+{
+	eReady,
+	ePlaying,
+	eGameOver
+};
