@@ -192,4 +192,7 @@
       <Filter>Resource Files</Filter>
     </Media>
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="Resources\flappybird.txt" />
+  </ItemGroup>
 </Project>

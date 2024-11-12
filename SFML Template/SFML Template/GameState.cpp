@@ -119,7 +119,7 @@ namespace flappybird
 			flash->Show(dt);
 			if (_clock.getElapsedTime().asSeconds() > TIME_BEFORE_GAME_OVER)
 			{
-				_data->machine.AddState(stateRef(new GameOverState(_data)), true);
+				_data->machine.AddState(stateRef(new GameOverState(_data, _score)), true);
 			}
 		}
 
