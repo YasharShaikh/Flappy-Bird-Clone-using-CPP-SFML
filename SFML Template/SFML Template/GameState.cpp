@@ -16,10 +16,14 @@ namespace flappybird
 		this->_data->assets.LoadTexture("Pipe Down", PIPE_DOWN_FILEPATH);
 		this->_data->assets.LoadTexture("Pipe Up", PIPE_UP_FILEPATH);
 		this->_data->assets.LoadTexture("Land", LAND_FILEPATH);
-		
+		this->_data->assets.LoadTexture("Bird Frame 1", BIRD_FRAME_1);
+		this->_data->assets.LoadTexture("Bird Frame 2", BIRD_FRAME_2);
+		this->_data->assets.LoadTexture("Bird Frame 3", BIRD_FRAME_3);
+		this->_data->assets.LoadTexture("Bird Frame 4", BIRD_FRAME_4);
 		_background.setTexture(this->_data->assets.GetTexture("Game State Background"));
 		pipe = new Pipe(_data);
 		land = new Land(_data);
+		bird = new Bird(_data);
 	}
 	void GameState::HandleInput()
 	{
@@ -31,10 +35,10 @@ namespace flappybird
 				_data->window.close();
 			}
 		
-			/*if (this->_data->input.IsSpriteClicked(this->_playButton, sf::Mouse::Left, this->_data->window))
+			if(_data->input.IsSpriteClicked(_background, sf::Mouse::Left, this->_data->window))
 			{
-				std::cout << "jump bird" << std::endl;
-			}*/
+				bird ->Tap();
+			}
 		}
 	}
 	void GameState::Update(float dt)
@@ -50,7 +54,8 @@ namespace flappybird
 			_clock.restart();
 		}
 
-		//if(_clock.getElapsedTime())
+		bird->Animate(dt);
+		bird->Update(dt);
 	}
 	void GameState::Draw(float dt)
 	{
@@ -58,6 +63,7 @@ namespace flappybird
 		this->_data->window.draw(this->_background);
 		pipe->DrawPipes();
 		land->DrawLand();
+		bird->DrawBird();
 		this->_data->window.display();
 	}
 }
