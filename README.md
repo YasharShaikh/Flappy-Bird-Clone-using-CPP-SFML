@@ -12,6 +12,8 @@ A C++ implementation of the classic Flappy Bird game using SFML, featuring a cus
 ----------
 💡**Objective**: Understand the architecture and implementation of a basic game engine by exploring this SFML-based Flappy Bird project 💡.
 
+![Flappy Bird 2024-11-13 13-39-36 (1)](https://github.com/user-attachments/assets/e487cee7-c4d6-4649-8ced-043d113b87d3)
+
 
 **Gameplay 🎮**
 ------------
