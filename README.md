@@ -1,4 +1,4 @@
-**Flappy-Bird-Clone-using-SFML-CPP** ⚔️
+**GAME-ENGINE-FLAPPY-BIRD-CPP-SFML** ⚔️
 ==========================
 
 A C++ implementation of the classic Flappy Bird game using SFML, featuring a custom-built game engine with:
